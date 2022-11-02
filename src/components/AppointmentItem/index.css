@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.appointment-container {
+  list-style: none;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 5px;
+  width: 310px;
+  margin-left: 10px;
+}
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.star-button {
+  background-color: transparent;
+  border: 0px;
+}
+.star-image {
+  height: 20px;
+}
+.date {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
